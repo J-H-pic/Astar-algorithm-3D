@@ -1,7 +1,6 @@
-using namespace std;
 #include <cmath>
-#include "AStar.h"
 #include <queue>
+#include "AStar.h"
 
 AStar::AStar() {}
 
@@ -65,4 +64,3 @@ std::vector<Node*> AStar::findPath(Node* start, Node* goal, std::vector<std::vec
     }
     return std::vector<Node*>();
 }
-

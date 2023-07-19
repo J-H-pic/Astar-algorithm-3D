@@ -8,7 +8,6 @@ public:
     ~AStar();
 
     std::vector<Node*> findPath(Node* start, Node* goal, std::vector<std::vector<std::vector<Node>>>& grid);
-private:
     std::vector<Node*> getNeighbors(Node* node, std::vector<std::vector<std::vector<Node>>>& grid);
     float heuristic(Node* a, Node* b);
 };
